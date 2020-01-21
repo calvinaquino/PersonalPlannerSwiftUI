@@ -15,6 +15,12 @@
 		2CB3614E23D6703A00B3390D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB3614C23D6703A00B3390D /* LaunchScreen.storyboard */; };
 		2CB3615923D6703A00B3390D /* personal_planner_swiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3615823D6703A00B3390D /* personal_planner_swiftuiTests.swift */; };
 		2CB3616423D6703A00B3390D /* personal_planner_swiftuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3616323D6703A00B3390D /* personal_planner_swiftuiUITests.swift */; };
+		2CB3617223D6710C00B3390D /* ShoppingListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3617123D6710C00B3390D /* ShoppingListScreen.swift */; };
+		2CB3617423D6711900B3390D /* FinancesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3617323D6711900B3390D /* FinancesScreen.swift */; };
+		2CB3617723D67C9300B3390D /* Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3617623D67C9300B3390D /* Toolbar.swift */; };
+		2CB3617A23D6864300B3390D /* ShoppingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3617923D6864300B3390D /* ShoppingItem.swift */; };
+		2CB3617C23D6871500B3390D /* TransactionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3617B23D6871500B3390D /* TransactionItem.swift */; };
+		2CB3617E23D6874100B3390D /* BudgetCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3617D23D6874100B3390D /* BudgetCategory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2CB3613E23D6703600B3390D /* personal-planner-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "personal-planner-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CB3613E23D6703600B3390D /* Planejador.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planejador.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB3614123D6703600B3390D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CB3614323D6703600B3390D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2CB3614523D6703600B3390D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		2CB3615F23D6703A00B3390D /* personal-planner-swiftuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "personal-planner-swiftuiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB3616323D6703A00B3390D /* personal_planner_swiftuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personal_planner_swiftuiUITests.swift; sourceTree = "<group>"; };
 		2CB3616523D6703A00B3390D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CB3617123D6710C00B3390D /* ShoppingListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListScreen.swift; sourceTree = "<group>"; };
+		2CB3617323D6711900B3390D /* FinancesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancesScreen.swift; sourceTree = "<group>"; };
+		2CB3617623D67C9300B3390D /* Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar.swift; sourceTree = "<group>"; };
+		2CB3617923D6864300B3390D /* ShoppingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItem.swift; sourceTree = "<group>"; };
+		2CB3617B23D6871500B3390D /* TransactionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionItem.swift; sourceTree = "<group>"; };
+		2CB3617D23D6874100B3390D /* BudgetCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetCategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +101,7 @@
 		2CB3613F23D6703600B3390D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2CB3613E23D6703600B3390D /* personal-planner-swiftui.app */,
+				2CB3613E23D6703600B3390D /* Planejador.app */,
 				2CB3615423D6703A00B3390D /* personal-planner-swiftuiTests.xctest */,
 				2CB3615F23D6703A00B3390D /* personal-planner-swiftuiUITests.xctest */,
 			);
@@ -102,6 +114,10 @@
 				2CB3614123D6703600B3390D /* AppDelegate.swift */,
 				2CB3614323D6703600B3390D /* SceneDelegate.swift */,
 				2CB3614523D6703600B3390D /* ContentView.swift */,
+				2CB3617123D6710C00B3390D /* ShoppingListScreen.swift */,
+				2CB3617323D6711900B3390D /* FinancesScreen.swift */,
+				2CB3617823D6862E00B3390D /* Data */,
+				2CB3617523D67C8500B3390D /* Components */,
 				2CB3614723D6703A00B3390D /* Assets.xcassets */,
 				2CB3614C23D6703A00B3390D /* LaunchScreen.storyboard */,
 				2CB3614F23D6703A00B3390D /* Info.plist */,
@@ -136,6 +152,24 @@
 			path = "personal-planner-swiftuiUITests";
 			sourceTree = "<group>";
 		};
+		2CB3617523D67C8500B3390D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2CB3617623D67C9300B3390D /* Toolbar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2CB3617823D6862E00B3390D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2CB3617923D6864300B3390D /* ShoppingItem.swift */,
+				2CB3617B23D6871500B3390D /* TransactionItem.swift */,
+				2CB3617D23D6874100B3390D /* BudgetCategory.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,7 +187,7 @@
 			);
 			name = "personal-planner-swiftui";
 			productName = "personal-planner-swiftui";
-			productReference = 2CB3613E23D6703600B3390D /* personal-planner-swiftui.app */;
+			productReference = 2CB3613E23D6703600B3390D /* Planejador.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2CB3615323D6703A00B3390D /* personal-planner-swiftuiTests */ = {
@@ -270,6 +304,12 @@
 				2CB3614223D6703600B3390D /* AppDelegate.swift in Sources */,
 				2CB3614423D6703600B3390D /* SceneDelegate.swift in Sources */,
 				2CB3614623D6703600B3390D /* ContentView.swift in Sources */,
+				2CB3617723D67C9300B3390D /* Toolbar.swift in Sources */,
+				2CB3617A23D6864300B3390D /* ShoppingItem.swift in Sources */,
+				2CB3617C23D6871500B3390D /* TransactionItem.swift in Sources */,
+				2CB3617E23D6874100B3390D /* BudgetCategory.swift in Sources */,
+				2CB3617423D6711900B3390D /* FinancesScreen.swift in Sources */,
+				2CB3617223D6710C00B3390D /* ShoppingListScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,7 +484,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "calvinaquino.personal-planner-swiftui";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Planejador;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,7 +504,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "calvinaquino.personal-planner-swiftui";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Planejador;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
