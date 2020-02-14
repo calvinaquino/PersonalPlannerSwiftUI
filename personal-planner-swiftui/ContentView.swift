@@ -13,12 +13,12 @@ struct ContentView: View {
         TabView {
             ShoppingListScreen()
                 .tabItem {
-                    Image(systemName: "1.square.fill")
-                    Text("Compras")
+                    Image(systemName: "cart")
+                    Text("Mercado")
                 }
             FinancesScreen()
                 .tabItem {
-                    Image(systemName: "2.square.fill")
+                    Image(systemName: "dollarsign.circle")
                     Text("Finanças")
                 }
         }

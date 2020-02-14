@@ -6,22 +6,22 @@
 //  Copyright © 2020 Aquino. All rights reserved.
 //
 
+import Combine
 import SwiftUI
 
 struct ShoppingListScreen: View {
     
-    var shoppingList: [ShoppingItem] = [
-        ShoppingItem(name: "Carne", isMissing: true),
-        ShoppingItem(name: "Frango", isMissing: true),
-        ShoppingItem(name: "Leite", isMissing: true)
-    ]
+    @ObservedObject var shoppingList = ShoppingList()
     
     var body: some View {
         NavigationView {
-            List(shoppingList) { item in
-                Text(item.name)
+            VStack {
+                SearchBar()
+                List(shoppingList.items) { item in
+                    Text(item.name)
+                }
             }
-            .navigationBarTitle("Compras", displayMode: .inline)
+            .navigationBarTitle("Mercado", displayMode: .inline)
             .navigationBarItems(trailing: Button(action: {
                 print("HEY")
             }) {
